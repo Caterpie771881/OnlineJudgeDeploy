@@ -30,7 +30,8 @@
 2. Start service
 
     ```bash
-    docker-compose up -d
+    chmod +x install.sh
+    bash install.sh
     ```
 
 According to the network speed, the setup can be completed automatically in about 5 to 30 minutes without manual intervention.

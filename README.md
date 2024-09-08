@@ -43,7 +43,8 @@ Windows 下的安装仅供体验，勿在生产环境使用。如有必要，请
 2. 启动服务
 
     ```bash
-    docker-compose up -d
+    chmod +x install.sh
+    bash install.sh
     ```
 
 根据网速情况，大约5到30分钟就可以自动搭建完成，全程无需人工干预。

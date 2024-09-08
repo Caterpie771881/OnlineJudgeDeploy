@@ -8,8 +8,6 @@ if [ -n "$MIRROR" ] && [ "${MIRROR: -1}" != "/" ]; then
     MIRROR+="/"
 fi
 
-echo $MIRROR
-
 cp `dirname $0`/docker-compose_.yml `dirname $0`/docker-compose.yml
 
 sed -i "s|<mirror>|$MIRROR|g" `dirname $0`/docker-compose.yml
