@@ -2,13 +2,13 @@ version: "3"
 services:
 
   oj-redis:
-    image: redis:4.0-alpine
+    image: <mirror>redis:4.0-alpine
     restart: always
     volumes:
       - ./data/redis:/data
 
   oj-postgres:
-    image: postgres:10-alpine
+    image: <mirror>postgres:10-alpine
     restart: always
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
