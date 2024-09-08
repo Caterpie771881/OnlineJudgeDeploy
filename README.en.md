@@ -28,7 +28,10 @@
     ```
 
 2. Start service
-
+    ```bash
+    docker-compose up -d
+    ```
+    or
     ```bash
     chmod +x install.sh
     bash install.sh

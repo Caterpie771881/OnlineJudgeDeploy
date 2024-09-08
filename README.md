@@ -41,7 +41,10 @@ Windows 下的安装仅供体验，勿在生产环境使用。如有必要，请
     ```
 
 2. 启动服务
-
+    ```bash
+    docker-compose up -d
+    ```
+    or
     ```bash
     chmod +x install.sh
     bash install.sh
